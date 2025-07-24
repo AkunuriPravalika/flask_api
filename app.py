@@ -4,7 +4,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "http://localhost:5000"  # Replace with Render URL when deployed
+BASE_URL = "http://127.0.0.1:5000/"  # Replace with Render URL when deployed
 
 st.set_page_config(page_title="User Manager", layout="centered")
 st.title("📋 User Management Dashboard")
